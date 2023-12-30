@@ -1,0 +1,68 @@
+.dashboard-container {
+  padding: 20px;
+  background: linear-gradient(to right, #3498db, #2980b9);
+  overflow-x: auto;
+  border-radius: 15px;
+}
+
+.dashboard-widgets {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.widget {
+  flex: 0 0 auto;
+  background-color: #8e44ad;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333333;
+  text-align: center;
+}
+
+.user-profile-widget {
+  background-color: #2ecc71; /* Green background for user profile */
+  color: #ffffff;
+}
+
+.calculator-widget {
+  background-color: #f39c12; /* Orange background for calculator */
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calculator-buttons button {
+  background-color: #e74c3c; /* Red background for number buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.calculator-buttons button.operator {
+  background-color: #3498db; /* Blue background for operator buttons */
+}
+
+.color-list-widget {
+  background-color: #2ecc71; /* Green background for color list */
+  color: #ffffff;
+}
+
+.user-list-widget {
+  background-color: #e74c3c; /* Red background for user list */
+  color: #ffffff;
+}
+
+.todo-list-widget {
+  background-color: #8e44ad; /* Purple background for to-do list */
+  color: #ffffff;
+}
